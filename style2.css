@@ -1,0 +1,47 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.container {
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+.middle {
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.middle .form-label {
+  text-align: left;
+  width: 100%;
+}
+
+.middle input {
+  margin-bottom: 0px;
+}
+
+.footer {
+  color: #6c757d;
+  font-size: 14px;
+}
+
+.footer span {
+  font-style: italic;
+}
